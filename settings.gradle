@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "MOB_2021_SP_AS_MFN"
