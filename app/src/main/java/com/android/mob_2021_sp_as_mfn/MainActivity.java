@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     String [] mDescription = {"Catrice","essence","Maybelline New York","Makeup Revolution",
             "L’Oréal Paris", "L’Oréal Paris", "Catrice", "KISS","Real Techniques", "Luvia Cosmetics"};
     int [] images = {R.drawable.foto1, R.drawable.foto2, R.drawable.foto3,R.drawable.foto4,R.drawable.foto5, R.drawable.foto6,R.drawable.foto7,
-            R.drawable.foto8, R.drawable.foto9, R.drawable.foto10};
+            R.drawable.foto8, R.drawable.foto9, R.drawable.foto1};
 
 
 
