@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,12 +20,13 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     ListView listView;
-    String mTitle[] = {"Facebook", "Whatsapp", "Twitter", "Instagram", "YouTube", "Telegram", "Line", "TikTok", "SnapChat", "LinkedIn",  "Tumblr", "WeChat","Tinder"};
-    String mDescription[] = {"Facebook Description","Whatsapp Description","Twitter Description","Instagram Description",
-            "Youtube Description", "Telegram Description", "Line Description", "TikTok Description","SnapChat Description",
-            "LinkedIn Description","Tumblr Description","WeChat Description","Tinder Description"};
-    int images[] = {R.drawable.facebook, R.drawable.whatsapp, R.drawable.twitter,R.drawable.instagram,R.drawable.youtube, R.drawable.telegram,R.drawable.line,
-            R.drawable.tiktok, R.drawable.snapchat, R.drawable.linkedin,  R.drawable.tumblr, R.drawable.wechat, R.drawable.tinder};
+    String [] mTitle = {"HD Liquis Coverage Foundation","Shine last & go! gel nail polish 66 Rock Your Body","Lippenstift Super Stay Ink Crayon 105 ON THE GRIND",
+            "Shimmer Bomb \"Glimmer\" Lip Gloss","Color Queen Oil Shadow 43 Positive", "Color Queen Oil Shadow 45 Reacher","Kaviar Gauche Highlighter C01",
+            "Lash Couture LuXtension Wimpernband Strip 02","The Perfect Purse Pal Mini Multitask Brush Ornament","Prime Vegan Candy"};
+    String [] mDescription = {"Catrice","essence","Maybelline New York","Makeup Revolution",
+            "L’Oréal Paris", "L’Oréal Paris", "Catrice", "KISS","Real Techniques", "Luvia Cosmetics"};
+    int [] images = {R.drawable.foto1, R.drawable.foto2, R.drawable.foto3,R.drawable.foto4,R.drawable.foto5, R.drawable.foto6,R.drawable.foto7,
+            R.drawable.foto8, R.drawable.foto9, R.drawable.foto10};
 
 
 
@@ -46,56 +48,51 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    Toast.makeText(MainActivity.this, "Facebook Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 1) {
-                    Toast.makeText(MainActivity.this, "Whatsapp Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 2) {
-                    Toast.makeText(MainActivity.this, "Twitter Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 3) {
-                    Toast.makeText(MainActivity.this, "Instagram Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 4) {
-                    Toast.makeText(MainActivity.this, "YouTube Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 5) {
-                    Toast.makeText(MainActivity.this, "Telegram Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 6) {
-                    Toast.makeText(MainActivity.this, "Line Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 7) {
-                    Toast.makeText(MainActivity.this, "TikTok Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 8) {
-                    Toast.makeText(MainActivity.this, "SnapChat Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 9) {
-                    Toast.makeText(MainActivity.this, "LinkedIn Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
 
                 if (position == 10) {
-                    Toast.makeText(MainActivity.this, "Tumblr Description", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
-                if (position == 11) {
-                    Toast.makeText(MainActivity.this, "WeChat Description", Toast.LENGTH_SHORT).show();
-                }
-                if (position == 12) {
-                    Toast.makeText(MainActivity.this, "Tinder Description", Toast.LENGTH_SHORT).show();
-                }
+
             }
         });
     }
 
     class MyAdapter extends ArrayAdapter<String> {
         Context context;
-        String rTitle[];
-        String rDescription[];
-        int rImgs[];
+        String [] rTitle;
+        String [] rDescription;
+        int [] rImgs;
 
-        MyAdapter(Context c, String title[], String description[], int imgs[]) {
+        MyAdapter(Context c, String [] title, String [] description, int [] imgs) {
             super(c, R.layout.row, R.id.textView1, title);
             this.context = c;
             this.rTitle = title;
@@ -107,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
             LayoutInflater layoutInflater = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View row = layoutInflater.inflate(R.layout.row, parent, false);
+            @SuppressLint("ViewHolder") View row = layoutInflater.inflate(R.layout.row, parent, false);
             ImageView images = row.findViewById(R.id.image);
             TextView myTitle = row.findViewById(R.id.textView1);
             TextView myDescription = row.findViewById(R.id.textView2);
