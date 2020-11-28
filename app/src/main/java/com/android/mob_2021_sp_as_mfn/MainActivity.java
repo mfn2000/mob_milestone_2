@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                /*if (position == 0) {
+                if (position == 0) {
                     Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 1) {
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (position == 30) {
                     Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
-                }*/
+                }
 
 
 
