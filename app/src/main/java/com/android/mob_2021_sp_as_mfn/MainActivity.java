@@ -22,11 +22,21 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     String [] mTitle = {"HD Liquis Coverage Foundation","Shine last & go! gel nail polish 66 Rock Your Body","Lippenstift Super Stay Ink Crayon 105 ON THE GRIND",
             "Shimmer Bomb \"Glimmer\" Lip Gloss","Color Queen Oil Shadow 43 Positive", "Color Queen Oil Shadow 45 Reacher","Kaviar Gauche Highlighter C01",
-            "Lash Couture LuXtension Wimpernband Strip 02","The Perfect Purse Pal Mini Multitask Brush Ornament","Prime Vegan Candy"};
+            "Lash Couture LuXtension Wimpernband Strip 02","The Perfect Purse Pal Mini Multitask Brush Ornament","Prime Vegan Candy", "Foundation Even Better Make-up",
+            "Lidschatten Rose Gold Eyeshadow Palette Nude Rose Gold", "Fixierspray Make Up Setting Spray Matte Finish/Long Lasting 01", "Nagellack 24 - in stitches",
+            "Colorburst™ Matte Balm", "Volum' Express The Colossal 100% Black Mascara", "Make-up Flawless Finish Foundation Light Ivory" , "Make-up Flawless Finish Foundation Pearl",
+            "Make-up Flawless Finish Foundation Vanilla", "Nagellack peak show 389", "Diorskin Forever Foundation 0N", "Diorskin Forever Foundation 015", "Diorskin Forever Foundation 022",
+            "Diorskin Forever Foundation 030", "Diorskin Forever Foundation 4W0", "Super Lustrous™ Lipstick 828 - Carnival Spirit", "Super Lustrous™ Lipstick 450 - Gentlemen prefer pink",
+            "Super Lustrous™ Lipstick 477 - Black Cherry", "La Manicure L’Huile Cuticle Care Nourishing Argan",
+            "Superstay 24h Lippenstift Coffee 900 MOCHA MOVES"};
     String [] mDescription = {"Catrice","essence","Maybelline New York","Makeup Revolution",
-            "L’Oréal Paris", "L’Oréal Paris", "Catrice", "KISS","Real Techniques", "Luvia Cosmetics"};
+            "L’Oréal Paris", "L’Oréal Paris", "Catrice", "KISS","Real Techniques", "Luvia Cosmetics", "Clinique", "e.l.f", "NYX", "essie", "Revlon", "Maybelline New York",
+            "e.l.f", "e.l.f", "e.l.f", "essie", "Dior", "Dior", "Dior", "Dior", "Dior", "Revlon", "Revlon", "Revlon","L’Oréal Paris", "Maybelline New York" };
     int [] images = {R.drawable.foto1, R.drawable.foto2, R.drawable.foto3,R.drawable.foto4,R.drawable.foto5, R.drawable.foto6,R.drawable.foto7,
-            R.drawable.foto8, R.drawable.foto9, R.drawable.foto10};
+            R.drawable.foto8, R.drawable.foto9, R.drawable.foto10, R.drawable.foto11, R.drawable.foto12, R.drawable.foto13, R.drawable.foto14, R.drawable.foto15,
+            R.drawable.foto16, R.drawable.foto17, R.drawable.foto18, R.drawable.foto19, R.drawable.foto20, R.drawable.foto21, R.drawable.foto22,
+            R.drawable.foto23, R.drawable.foto24, R.drawable.foto25,
+            R.drawable.foto26, R.drawable.foto27, R.drawable.foto28, R.drawable.foto29, R.drawable.foto30 };
 
 
 
@@ -47,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
+                /*if (position == 0) {
                     Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 1) {
@@ -81,6 +91,71 @@ public class MainActivity extends AppCompatActivity {
                 if (position == 10) {
                     Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
+                if (position == 11) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 12) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 13) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 14) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 15) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 16) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 17) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 18) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 19) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 20) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 21) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 22) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 23) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 24) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 25) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 26) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 27) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 28) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 29) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 30) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }*/
+
+
+
+
+
 
             }
         });
