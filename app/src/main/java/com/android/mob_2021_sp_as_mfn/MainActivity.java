@@ -31,13 +31,14 @@ public class MainActivity extends AppCompatActivity {
             "Superstay 24h Lippenstift Coffee 900 MOCHA MOVES", "POP MATTE", "Colour Correcting Powder", "Lippenstifte Addict Lip Tattoo Nr. 831 Natural Brown", "BE LEGENDARY MATTE LIPSTICK",
             "Lidschattenpalette", "Grundierung / Primer Make-up 14ml", "Autumn Make-up Nagellack 13.5 ml", "Sommer Kollektion Make-up Nagellack 13.5 ml","Concealer Make-up 6.8 ml","Heaven's Hue Highlighter",
             "Make-up Bronzer 9g","Lippenstifte Gel 3er Set ULTRA HD KISS ME","BLUSHING BLUSH","Blush Duo","Puder Make-up 8g","Bronzer Make-up 8.7 g","Lipgloss Make-up 2.7 ml","Make-up Set", "Smudge Pot",
-            "L.A. COVER SHOT ","with Superfruits Extract Dewy Blush Elixir"
+            "L.A. COVER SHOT ","with Superfruits Extract Dewy Blush Elixir", "Liquid Liner", "Gel Liner", "Multi Purpose Powder - Blush & Eye", "No Filter Foundation", "Serum Foundation", "#NOFILTER Finishing Powder",
+            "Define & Refine Powder Foundation", "Slide On Lip Pencil", "Lippie Stix", "Lipstick"
     };
     String [] mDescription = {"Catrice","essence","Maybelline New York","Makeup Revolution",
             "L’Oréal Paris", "L’Oréal Paris", "Catrice", "KISS","Real Techniques", "Luvia Cosmetics", "Clinique", "e.l.f", "NYX", "essie", "Revlon", "Maybelline New York",
             "e.l.f", "e.l.f", "e.l.f", "essie", "Dior", "Dior", "Dior", "Dior", "Dior", "Revlon", "Revlon", "Revlon","L’Oréal Paris", "Maybelline New York", "CLINIQUE","Dr. Hauschka ",
             "DIOR","SMASHBOX","NYX COSMETICS","E.L.F.","ESSIE","ESSIE", "MAYBELLINE","STILA","SANTE","REVLON","CLINIQUE","Dr. Hauschka ","NYX COSMETICS","PHYSICIANS FORMULA","E.L.F.",
-            "MAYBELLINE", "STILA","SMASHBOX", "PHYSICIANS FORMULA"
+            "MAYBELLINE", "STILA","SMASHBOX", "PHYSICIANS FORMULA", "zorah biocosmetiques", "marienatie", "rejuva minerals", "colourpop", "deciem", "nyx", "nyx", "nyx", "colourpop", "boosh"
     };
     int [] images = {R.drawable.foto1, R.drawable.foto2, R.drawable.foto3,R.drawable.foto4,R.drawable.foto5, R.drawable.foto6,R.drawable.foto7,
             R.drawable.foto8, R.drawable.foto9, R.drawable.foto10, R.drawable.foto11, R.drawable.foto12, R.drawable.foto13, R.drawable.foto14, R.drawable.foto15,
@@ -45,7 +46,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.foto24, R.drawable.foto25, R.drawable.foto26, R.drawable.foto27, R.drawable.foto28, R.drawable.foto29, R.drawable.foto30, R.drawable.foto31,
             R.drawable.foto32,R.drawable.foto33,R.drawable.foto34,R.drawable.foto35,R.drawable.foto36,R.drawable.foto37,R.drawable.foto38,R.drawable.foto39,R.drawable.foto40,
             R.drawable.foto41,R.drawable.foto42,R.drawable.foto43,R.drawable.foto44,R.drawable.foto45,R.drawable.foto46,R.drawable.foto47,R.drawable.foto48,R.drawable.foto49,
-            R.drawable.foto50,R.drawable.foto51
+            R.drawable.foto50,R.drawable.foto51, R.drawable.foto52, R.drawable.foto53, R.drawable.foto54,R.drawable.foto55,R.drawable.foto56,R.drawable.foto57,R.drawable.foto58,
+            R.drawable.foto59, R.drawable.foto60, R.drawable.foto61
     };
 
 
@@ -225,9 +227,36 @@ public class MainActivity extends AppCompatActivity {
                 if (position == 51) {
                     Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
-
-
-
+                if (position == 52) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 53) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 54) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 55) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 56) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 57) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 58) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 59) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 60) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 61) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
 
 
 
