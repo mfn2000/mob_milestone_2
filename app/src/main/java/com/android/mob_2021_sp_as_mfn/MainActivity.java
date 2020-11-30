@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
             "L'Oreal Infallible Nail Polish in Iconic Indigo ", "Misa Nail Laquer", "L'Oreal Infallible Nail Polish in Petale Revival", "Salon Perfect Nail Lacquer ",
             "Moov Cosmetics Home Grown Canuck Collection", 	"L'Oreal Infallible Nail … in Irresistible Bonbon", "All About Shadow&trade; Quad", "Clinique + Jonathan Adler: Lid Pop", "Holiday Diorshow Pump n' Volume Set",
             "Couture Colour Wardrobe palette", "rejuva minerals", 	"Tango With Bronzing Powder", "Illuminator", "Dark Circle Concealer", "hello flawless! powder foundation", 	"24 Hour CC Spot Concealer",
-            "Camera Ready BB Cream Eyes SPF 15", "Revlon New Complexion One-Step Makeup"
+            "Camera Ready BB Cream Eyes SPF 15", "Revlon New Complexion One-Step Makeup","Lipgloss Make-up 3ml", "BLENDED FACE", "AROMATICS ELIXIR 200 ml", "Make-up Puder 5g", "Puder Make-up 9g", "Foundation Make-up 30ml",
+            "Stay All Day Liquid Eyeliner","Partner's In Crime Liquid Eyeliner & Eyeshadow Set","PHOTO EDIT EYE SHADOW TRIO","Bronzer Make-up 11g"
     };
     String [] mDescription = {"Catrice","essence","Maybelline New York","Makeup Revolution",
             "L’Oréal Paris", "L’Oréal Paris", "Catrice", "KISS","Real Techniques", "Luvia Cosmetics", "Clinique", "e.l.f", "NYX", "essie", "Revlon", "Maybelline New York",
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             "DIOR","SMASHBOX","NYX COSMETICS","E.L.F.","ESSIE","ESSIE", "MAYBELLINE","STILA","SANTE","REVLON","CLINIQUE","Dr. Hauschka ","NYX COSMETICS","PHYSICIANS FORMULA","E.L.F.",
             "MAYBELLINE", "STILA","SMASHBOX", "PHYSICIANS FORMULA", "zorah biocosmetiques", "marienatie", "rejuva minerals", "colourpop", "deciem", "nyx", "nyx", "nyx", "colourpop", "boosh",
             "lotus cosmetics usa", "green people","c'est moi", "nyx", "nyx", "nyx", "nyx", "moov", "anna sui", "l'oreal", "moov", "l'oreal", "misa","l'oreal" , "salon perfect", 	"moov", "l'oreal", "clinique", "clinique", "dior", "dior",
-            "rejuva minerals", "nyx", "nyx", "nyx","benefit",  "smashbox", 	"smashbox", "revlon"
+            "rejuva minerals", "nyx", "nyx", "nyx","benefit",  "smashbox", 	"smashbox", "revlon", "E.L.F.", "CLINIQUE", "CLINIQUE", "NYX COSMETICS", "MAYBELLINE", "MAYBELLINE", "STILA", "STILA","SMASHBOX" ,"PHYSICIANS FORMULA"
     };
     int [] images = {R.drawable.foto1, R.drawable.foto2, R.drawable.foto3,R.drawable.foto4,R.drawable.foto5, R.drawable.foto6,R.drawable.foto7,
             R.drawable.foto8, R.drawable.foto9, R.drawable.foto10, R.drawable.foto11, R.drawable.foto12, R.drawable.foto13, R.drawable.foto14, R.drawable.foto15,
@@ -57,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.foto59, R.drawable.foto60, R.drawable.foto61, R.drawable.foto62, R.drawable.foto63, R.drawable.foto64, R.drawable.foto65, R.drawable.foto66, R.drawable.foto67,
             R.drawable.foto68, R.drawable.foto69, R.drawable.foto70, R.drawable.foto71, R.drawable.foto72, R.drawable.foto73,R.drawable.foto74, R.drawable.foto75, R.drawable.foto76,
             R.drawable.foto77,R.drawable.foto78,R.drawable.foto79,R.drawable.foto80,R.drawable.foto81, R.drawable.foto82, R.drawable.foto83, R.drawable.foto84, R.drawable.foto85, R.drawable.foto86,
-            R.drawable.foto87, R.drawable.foto88, R.drawable.foto89, R.drawable.foto90
+            R.drawable.foto87, R.drawable.foto88, R.drawable.foto89, R.drawable.foto90, R.drawable.foto91,R.drawable.foto92,R.drawable.foto93,R.drawable.foto94,R.drawable.foto95,R.drawable.foto96,
+            R.drawable.foto97,R.drawable.foto98,R.drawable.foto99,R.drawable.foto100
 
 
     };
@@ -354,6 +356,36 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
                 if (position == 90) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 91) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 92) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 93) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 94) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 95) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 96) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 97) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 98) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 99) {
+                    Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
+                }
+                if (position == 100) {
                     Toast.makeText(MainActivity.this, "Product Description", Toast.LENGTH_SHORT).show();
                 }
 
